@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* margin: 100px 0; */
+  background: skyblue;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  overflow: hidden;
+}
+
+.App {
+  width: 800px;
+  height: 100vh;
+  background-color: steelblue;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+h1 {
+  margin: 0;
+  color: white;
+}
+.container {
+  margin: auto;
+  width: 600px;
+}
+input {
+  width: 390px;
+  border: 1px solid black;
+  padding: 10px 0;
+  padding-left: 10px;
+  font-size: 2rem;
+  /* margin-right: 10px; */
+  /* display: inline-; */
+  /* border-radius: 10px; */
+}
+button {
+  width: 150px;
+  font-size: 2rem;
+  margin-left: 10px;
+  padding: 10px 0;
+  border: none;
+  background-color: orange;
+  color: white;
+}
+button:hover {
+  background-color: orangered;
+}
+
+.list {
+  width: 600px;
+  margin: auto;
+  /* display: flex; */
+  justify-content: center;
+  /* margin: auto; */
+  /* background-color: aqua; */
+}
+
+.task {
+  width: 550px;
+  /* padding: 0 80px; */
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin: 5px 20px;
+}
+.task h3 {
+
+  /* justify-content: start; */
+  color: black;
+  font-weight: 100;
+}
+.task button {
+  /* justify-content: end; */
+  font-size: 1rem;
+  width: 100px;
+  background-color: red;
+}
